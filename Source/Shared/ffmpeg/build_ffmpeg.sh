@@ -30,7 +30,7 @@ make clean || true
 make distclean || true
 
 # Configure and compile FFmpeg
-./configure --disable-asm --disable-libxcb --disable-bzlib --disable-lzma --disable-sdl2 --disable-libdrm --disable-vaapi --enable-static --disable-shared --enable-optimizations --disable-debug \
+./configure --disable-asm --disable-libxcb --disable-bzlib --disable-lzma --disable-sdl2 --disable-libdrm --disable-vaapi --disable-vdpau --disable-xlib --disable-vulkan --enable-static --disable-shared --enable-optimizations --disable-debug \
             --disable-programs --disable-iconv --disable-avdevice --disable-postproc \
             --disable-everything --enable-avcodec --enable-avformat --enable-avutil \
             --enable-encoder=vorbis,flac,mp3,mpeg4,aac,alac,pcm_mulaw,pcm_alaw \
